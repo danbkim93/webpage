@@ -1,0 +1,171 @@
+nav{
+    position: fixed;
+    top:30px;
+    right: -100px;
+    transform: translate(-50%, -50%)  ;
+}
+a {
+    color:rgb(136, 146, 176);
+    text-decoration: none;
+ }
+nav ul li a:hover{
+      color:rgb(100,255,218);
+
+    font-weight: bolder;
+    outline-style: unset;
+}
+.about{
+    margin-top:100px;
+    padding-top: 450px;
+    padding-bottom: 30px;
+    
+    
+}
+#aboutMe{
+    color:rgb(100,255,218);
+
+}
+
+.top li{
+    margin-right: 10px;
+    display: inline;
+    
+}
+div{
+    margin-bottom: 220px;
+    margin-left: 50px;
+    margin-top:15px;
+    display: inline-block;
+   
+}
+
+html{
+
+    background-color: rgb(10, 25, 47);
+    font-weight: bold;
+    color: rgb(136, 146, 176);
+    scroll-behavior: smooth;
+    transition-duration: 800ms;
+    border-color: black; 
+    border-style: solid;
+ 
+}
+#helloIam{
+    font-size: 20px;    
+}
+
+
+#name{
+    font-size: 60px;
+
+    margin-top: -5px;
+    position:relative;
+    left: 100px;
+    margin-bottom: 20px;
+
+}
+#phonenumber{
+position: relative;
+left: 35px;
+margin-bottom: 20px;
+font-size: 20px;
+
+
+}
+#helloIam{
+    color: rgb(100,255,218);
+    margin-left: 10px;
+}
+#softwareDeveloper{
+    color: rgb(136, 146, 176);
+    margin-left: 10px;
+
+}
+.about{
+    color:rgb(136, 146, 176);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+
+.listt{
+   
+    list-style: none;
+    margin-bottom: 10px; 
+    left: 500px;
+
+}
+.check{
+text-align: left;
+margin-left: 400px;  
+
+    
+}
+.check li::before{
+    color: rgb(100,255,218);
+    content: "▹";
+    position: absolute;
+    left: 470px;
+    
+}/*
+.listt::before{
+    content: "▹";
+    position: relative ;
+    
+
+    color: rgb(100,255,218);
+}*/
+
+
+.aboutMe{
+    text-align: left;
+    color: rgb(136, 146, 176);
+}
+#message{
+    position:relative;
+    margin-bottom: 0px;
+    left: 80px;
+    padding-bottom: 0;
+    font-size: 20px;
+    
+}
+.lookingFor{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+li {
+    text-indent: 0px;
+}
+.Home{
+    
+    width: 500px;
+    height:300px;
+    color:rgb(136, 146, 176);
+
+}
+.emptyBox{
+    width: 400px;
+    height:300px;
+    position: relative;
+    top: 100px;
+    left:220px;
+
+}
+.emptyBox #greatDay{
+    position: relative;
+    text-align: center;
+    top: 20px;
+    font-size: 20px;    
+    font-weight: bolder;
+    color: rgb(136, 146, 176);
+}
+.top{
+    color:rgb(100,255,218);
+}
+
+#contactt{
+   color: rgb(100,255,218);
+}
